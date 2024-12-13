@@ -17,7 +17,7 @@ if (!AIRSTACK_API_KEY) {
 
 // تعریف اپلیکیشن Frog با پیکربندی اولیه
 export const app = new Frog({
-  title: "Frog Frame",
+  title: "Moxie Heroes",
   imageAspectRatio: "1:1",
   unstable_metaTags: [
     { property: "og:title", content: "Frog Frame" },
