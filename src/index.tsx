@@ -63,7 +63,7 @@ app.frame("/", async (c) => {
   const composeCastUrl = `https://warpcast.com/~/compose?text=${encodeURIComponent(
     "Bring back the Moxy heroes to us!\n\nFrame By @jeyloo"
   )}&embeds[]=${encodeURIComponent(
-    "https://0ab9-35-178-91-117.ngrok-free.app"
+    "https://heroes-6g5q.onrender.com"
   )}`;
 
   // بازگشت پاسخ با تصویر و دکمه
