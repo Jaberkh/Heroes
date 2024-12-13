@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "esnext", // یا "es2022" که پشتیبانی از top-level await را فراهم می‌کند
+    "module": "esnext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "strict": true,
+    "skipLibCheck": true,
+    
+    "jsx": "react-jsx",
+    "jsxImportSource": "hono/jsx",
+  }
+}
