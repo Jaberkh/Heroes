@@ -61,7 +61,7 @@ app.use("/*", serveStatic({ root: "./public" }));
 app.frame("/", async (c) => {
   // تنظیم متن کست و لینک
   const composeCastUrl = `https://warpcast.com/~/compose?text=${encodeURIComponent(
-    "Bring back the Moxy heroes to us!\n\nFrame By @jeyloo"
+    "Bring back the Moxie heroes to us!\n\nFrame By @jeyloo"
   )}&embeds[]=${encodeURIComponent(
     "https://heroes-6g5q.onrender.com"
   )}`;
